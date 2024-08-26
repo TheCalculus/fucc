@@ -7,6 +7,23 @@ html, body {
     background-color: #f2f3f4;
 }
 
+.menu {
+    width: 600px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    columns: 2;
+    line-height: 2rem;
+    list-style: none;
+    margin: 0 auto;
+    padding: 1.5rem;
+}
+
+li {
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+
 .small-container {
     width: 45em;
     margin: 0 auto;
